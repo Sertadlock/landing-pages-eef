@@ -1,0 +1,135 @@
+/* css Document*/
+/*Look into information about em and cellphone sizes instead of using px on sizes.*/
+
+
+/* not sure what root does. Is it css?*/
+
+\: :root
+    font-size: 50px
+    html { 
+        background: url(background-image: url("images/architecture-beautiful-exterior-106399-large.jpg")) no-repeat center fixed; 
+        background-size: cover;
+      }
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+  
+  .hero-image {
+    background-image: url("images/architecture-beautiful-exterior-106399-large.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+
+#wrapper {
+    text-align: center;
+    width: 1024px;
+    height: 750px;
+    margin: auto;
+    
+}
+
+#main {
+    padding-top: 100px;
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: rgb(8, 8, 8);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+p {
+    color: rgb(8, 8, 8);
+
+}
+
+#logo {
+    margin-top: 25px;
+
+}
+
+/* Youtube player
+
+.youtube player { 
+    boarder: 3px solid #ccc;
+    height: 315px;
+    padding: 0px;
+    width: 580px;
+    margin: 20px 0px;
+
+
+}
+*/
+
+#email, #first, #last, #Move_in_Date, #Rent_Budget, #Move_to_City {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    height: 40px;
+    margin: 5px;
+    background: #ccc;
+    font-size: 25px;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 377px;
+    text-align: center;
+
+}
+
+
+
+
+input#button {
+    width: 383px;
+    background: blue;
+    padding: 10px - 0px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #ccc
+
+}
+
+input#button: hover {
+    background: #666;
+}
+
+.footer {
+    padding-top: 100px;
+
+}
+
+.footer .menu {
+    display: inline;
+    padding-left: 5px;
+
+}
+
+.footer .menu .li {
+    list-style: none;
+    display:inline;
+
+}
+
+.footer .menu sapn.sep {
+    padding: 0 - 3px;
+
+}
+.footer .a {
+   color: #f60;
+   text-decoration: none; 
+}
