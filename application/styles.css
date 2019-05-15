@@ -95,21 +95,22 @@ input#button {
     width: 383px;
     background: blue;
     padding: 10px - 0px;
-    border: 3px solid aqua;
-    border-radius: 10px;
+    border: 3px solid rgb(248, 244, 18);
+    border-radius: 10px; /*rounded corners*/
     cursor: pointer;
     font-size: 50px;
     letter-spacing: 1px;
     color: #ccc
 
 }
-
+/*
 input#button: hover {
     background: #666;
 }
+*/
 
 .footer {
-    padding-top: 100px;
+    padding-bottom: 1px;
 
 }
 
@@ -126,10 +127,18 @@ input#button: hover {
 }
 
 .footer .menu sapn.sep {
-    padding: 0 - 3px;
+    padding: 3px;
 
 }
+
+.menu_item {
+    text-decoration: none;
+    display:inline;
+}
+
+/*
 .footer .a {
    color: #f60;
    text-decoration: none; 
 }
+*/
